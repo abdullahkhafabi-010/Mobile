@@ -12,6 +12,12 @@ void main(){
     var list3 = [0, ...list1];
     print(list3.length);
 
+    var nimA = [2, 0, 4, 1, 7];
+    var nimB = [2, 0, 0, 5, 0];
+    var list4 = [...nimA, ...nimB];
+    print(list4);
+    print(list4.length);
+
     var promoActive = false;
     var nav = ['Home', 'Furniture', 'Plants', if (promoActive) 'Outlet'];
     print(nav);
