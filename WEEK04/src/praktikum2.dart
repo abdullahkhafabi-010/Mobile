@@ -5,7 +5,7 @@ void main(){
   print(halogens);
 
   var names1 = <String>{};
-  names1.add('Abdullah Khafabi - 2041720050');
+  names1.add('Abdullah Khafabi');
   
   Set<String> names2 = {}; // This works, too.
   names2.addAll(['Abdullah Khafabi - 2041720050']);
